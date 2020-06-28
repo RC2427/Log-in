@@ -1,0 +1,62 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+h5{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* title */
+#title {
+  background-color: #3f72af;
+}
+
+.container-fluid {
+  padding: 2% 7%;
+}
+
+/* navbar */
+.navbar {
+  padding: 0 1rem 0 1rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-family: "Monserrat", sans-serif;
+  font-weight: 200;
+}
+
+/* login */
+
+.log-container{
+    padding: 6% 1%;
+}
+
+.log-card{
+    width: 30rem;
+    height: 27rem;
+    padding: 2% 3%;
+}
+
+.signbtn{
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.createAcc{
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: 0px 40px 0px 0px;
+}
