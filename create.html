@@ -32,7 +32,7 @@
     <section id="title">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand justify-content-start" href="">TestPage</a>
+                <a class="navbar-brand justify-content-start" href="index.html">TestPage</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navControl"
                     aria-controls="navControl" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -53,7 +53,7 @@
         <div class="container form-container">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Register Form</h5>
+                    <h5 class="card-title">Sign UP</h5>
                     <form action="" method="POST">
                         <div class="row">
                             <div class="col-lg-6">
@@ -103,25 +103,32 @@
                                     <label for="">Username</label>
                                     <input type="text" class="input-field form-control" name="" id="">
                                 </div>
-                                <div class="form-group">
-                                    <label for="">Password</label>
-                                    <input type="password" class="input-field form-control" name="" id="">
-                                    <button class="btn"><span><i class="far fa-eye"></i></span></button>
-                                </div>
-                                <div class="form-group">
-                                    <label for="">Confirm Password</label>
-                                    <input type="password" class="input-field form-control" name="" id="">
+                                <div id="password-field">
+                                    <div class="form-group input-group">
+                                        <label class="input-group" for="">Password</label>
+                                        <input type="password" class="input-field form-control" name="" id="pass">
+                                        <div class="input-group-append">
+                                            <button class="btn eye-button"><span><i id="eye-font"
+                                                        class="far fa-eye-slash"></i></span></button>
+                                        </div>
+                                    </div>
+                                    <div class="form-group input-group">
+                                        <label class="input-group" for="">Confirm Password</label>
+                                        <input type="password" class="input-field form-control" name="" id="pass2">
+                                        <div class="input-group-append">
+                                            <button class="btn eye-button"><span><i id="eye-font-confirm"
+                                                        class="far fa-eye-slash"></i></span></button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <button type="button" class="btn btn-md btn-outline-dark signbtn">Sign Up</button>
-                    </form> 
+                    </form>
                 </div>
             </div>
         </div>
     </section>
-    <!-- JavaScript -->
-    <script src="js/password.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -132,6 +139,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
+    <!-- JavaScript -->
+    <script src="js/password.js"></script>
 </body>
 
 </html>

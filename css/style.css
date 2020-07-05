@@ -60,3 +60,14 @@ h5{
   font-weight: 400;
   padding: 0px 40px 0px 0px;
 }
+
+.modal-dialog{
+  margin-top: 15%;
+  margin-left: 29rem;
+}
+
+.modal-content{
+  width: 600px;
+}
+
+
